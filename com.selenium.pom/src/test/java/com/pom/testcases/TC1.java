@@ -30,6 +30,7 @@ public class TC1 extends GetBrowserDriver{
 		LoginPage login_page =PageFactory.initElements(driver, LoginPage.class);
 		login_page.login_home(driver);
 		extent.flush();
+		System.out.println("hrllo");
 		driver.quit();
 	}
 
