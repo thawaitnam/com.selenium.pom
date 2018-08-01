@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25330" started-at="2018-04-13T05:22:54Z" finished-at="2018-04-13T05:23:19Z">
+  <suite name="Default suite" duration-ms="26743" started-at="2018-04-15T00:36:58Z" finished-at="2018-04-15T00:37:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25330" started-at="2018-04-13T05:22:54Z" finished-at="2018-04-13T05:23:19Z">
-      <class name="com.pom.testcases.TC1">
-        <test-method status="PASS" signature="LoginSalesForce()[pri:0, instance:com.pom.testcases.TC1@1e88b3c]" name="LoginSalesForce" duration-ms="25224" started-at="2018-04-12T22:22:54Z" finished-at="2018-04-12T22:23:19Z">
+    <test name="Default test" duration-ms="26743" started-at="2018-04-15T00:36:58Z" finished-at="2018-04-15T00:37:25Z">
+      <class name="com.pom.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pom.testcases.LoginPageTest@42d80b78]" name="setup" is-config="true" duration-ms="17790" started-at="2018-04-14T17:36:58Z" finished-at="2018-04-14T17:37:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginSalesForce -->
-      </class> <!-- com.pom.testcases.TC1 -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.pom.testcases.LoginPageTest@42d80b78]" name="loginTest" duration-ms="7606" started-at="2018-04-14T17:37:16Z" finished-at="2018-04-14T17:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pom.testcases.LoginPageTest@42d80b78]" name="tearDown" is-config="true" duration-ms="1279" started-at="2018-04-14T17:37:24Z" finished-at="2018-04-14T17:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pom.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
